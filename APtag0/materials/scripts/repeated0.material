@@ -1,0 +1,14 @@
+material vrc/repeated0
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture tag0.png
+        scale 1 1
+      }
+    }
+  }
+}	

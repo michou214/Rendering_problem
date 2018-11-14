@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <model name="APtag0">
+    <static>true</static>
+    <link name="robot_link">
+      <collision name="body_collision">
+        <geometry>
+          <box>
+            <size>0.2 0.2 0.01</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="body_visual">
+        <geometry>
+          <box>
+            <size>0.2 0.2 0.01</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://APtag0/materials/scripts</uri>
+            <uri>model://APtag0/materials/textures</uri>
+            <name>vrc/repeated0</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

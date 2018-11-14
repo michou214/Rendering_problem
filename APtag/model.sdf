@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="APtag">
+    <pose>0.2 0.2 0.005 0 0 0</pose>
+    <link name="box">
+      <pose>0.2 0.2 0.005 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>0.2 0.2 0.02</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <box>
+            <size>0.2 0.2 0.01</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://APtag/materials/scripts</uri>
+            <uri>model://APtag/materials/textures</uri>
+            <name>APtag/tag0</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

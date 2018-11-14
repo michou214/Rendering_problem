@@ -1,0 +1,14 @@
+material APtag/tag0
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture tag0.png
+      }
+    }
+  }
+}
+
